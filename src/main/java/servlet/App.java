@@ -79,7 +79,7 @@ public class App extends HttpServlet{
 			}
 		}
         out.println("<p>Numero di vocaboli presenti nel dizionario: "+vocaboli + "</p>");
-        out.println("<a href='http://localhost:8080'>link home</a>");
+        out.println("<a href='/'>link home</a>");
 	}
 	
 	public void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException{
@@ -133,7 +133,7 @@ public class App extends HttpServlet{
 			}
 		}
         out.println("<p>Numero di vocaboli presenti nel dizionario: "+vocaboli + "</p>");
-        out.println("<a href='http://localhost:8080'>link home</a>");
+        out.println("<a href='/'>link home</a>");
     }
 }
 
