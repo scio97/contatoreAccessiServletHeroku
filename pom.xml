@@ -9,8 +9,8 @@
   <url>http://maven.apache.org</url>
   <properties>
     <tomcat.version>9.0.27</tomcat.version>
-    <maven.compiler.source>13</maven.compiler.source>
-    <maven.compiler.target>13</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
   <dependencies>
     <dependency>
