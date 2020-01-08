@@ -1,69 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Dizionario - Home</title>
+        <title>Contatore accessi Servlet</title>
     </head>
     <body>
-        <h1>Dizionario dei sinonimi e dei contrari</h1>
-        <h2>METODO GET</h2>
-        <h3>Inserisci la parola da cercare e specifica il tipo di ricerca:</h3>
-        <form action="/prova" method="GET">
-            <select name="mod">
-                <option value="cerca">cerca</option>
-                <option value="elimina">elimina</option>
-            </select>
-            <p>Termine:</p>
-            <input type="text" name="termine" required>
-            <p>Tipologia ricerca:</p>
-            <select name="tipologia">
-                <option value="s">Sinonimi</option>
-                <option value="c">Contrari</option>
-            </select><br><br>
-            <input type="submit">
-        </form>
-        <h3>Inserisci la parola da inserire e i relativi sinonimi/contrari:</h3>
-        <form action="/prova" method="GET">
-            <select name="mod">
-                <option value="aggiungi">aggiungi</option>
-                <option value="modifica">modifica</option>
-            </select>
-            <p>Termine:</p>
-            <input type="text" name="termine" required>
-            <p>Inserisci sinonimi: </p>
-            <input type="text" name="sinonimi" required>
-            <p>Inserisci contrari: </p>
-            <input type="text" name="contrari" required><br><br>
-            <input type="submit">
-        </form><br><br>
-        <h2>METODO POST</h2>
-        <h3>Inserisci la parola da cercare e specifica il tipo di ricerca:</h3>
-        <form action="/prova" method="POST">
-            <select name="mod">
-                <option value="cerca">cerca</option>
-                <option value="elimina">elimina</option>
-            </select>
-            <p>Termine:</p>
-            <input type="text" name="termine" required>
-            <p>Tipologia ricerca:</p>
-            <select name="tipologia">
-                <option value="s">Sinonimi</option>
-                <option value="c">Contrari</option>
-            </select><br><br>
-            <input type="submit">
-        </form>
-        <h3>Inserisci la parola da inserire e i relativi sinonimi/contrari:</h3>
-        <form action="/prova" method="POST">
-            <select name="mod">
-                <option value="aggiungi">aggiungi</option>
-                <option value="modifica">modifica</option>
-            </select>
-            <p>Termine:</p>
-            <input type="text" name="termine" required>
-            <p>Inserisci sinonimi: </p>
-            <input type="text" name="sinonimi" required>
-            <p>Inserisci contrari: </p>
-            <input type="text" name="contrari" required><br><br>
-            <input type="submit">
-        </form>
+        <h1>Contatore accessi Servlet</h1>
+        <button onclick="location.href='prova'">Contatore</button>
     </body>
 </html>
