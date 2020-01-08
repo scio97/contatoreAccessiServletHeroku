@@ -1,4 +1,4 @@
-package app;
+package servlet;
 import java.io.IOException;
 import java.io.PrintWriter;
 //import javax.servlet.ServletConfig;
